@@ -530,8 +530,8 @@ body {
     border-radius: 8px;
 }
 
-.info-label {
-    color: #fff;
+.gcash-info .info-label {
+    color: #f0f0f0;
     font-size: 0.75em;
     font-weight: 700;
     text-transform: uppercase;
@@ -539,8 +539,8 @@ body {
     margin-bottom: 6px;
 }
 
-.info-value {
-    color: #fff;
+.gcash-info .info-value {
+    color: #f0f0f0;
     font-size: 1.05em;
     font-weight: 700;
     font-family: 'Courier New', monospace;
