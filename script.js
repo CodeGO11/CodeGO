@@ -361,18 +361,6 @@ document.getElementById('checkBtn').addEventListener('click', function() {
     } else if (a5Codes.some(code => chipModel.includes(code))) {
         type = 'eMMC';
         grade = 'A5';
-    } else if (chipModel.includes('KMR')) {
-        type = 'eMMC';
-        grade = 'A';
-    } else if (chipModel.includes('KLMBG')) {
-        type = 'eMMC';
-        grade = 'B+';
-    } else if (chipModel.includes('SKH')) {
-        type = 'UFS';
-        grade = 'A+';
-    } else if (chipModel.includes('HF')) {
-        type = 'UFS';
-        grade = 'A';
     } else if (a5Codes.some(code => chipModel.includes(code))) {
         type = 'eMMC';
         grade = 'A5';
